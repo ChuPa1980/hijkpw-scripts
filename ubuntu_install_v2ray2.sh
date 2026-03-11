@@ -115,7 +115,7 @@ getData() {
         echo 
         CERT_FILE="/etc/v2ray/${DOMAIN}.pem"
         KEY_FILE="/etc/v2ray/${DOMAIN}.key"
-    else
+    # else
         # 移除检测
         # resolve=`curl -sL https://hijk.art/hostip.php?d=${DOMAIN}`
         # res=`echo -n ${resolve} | grep ${IP}`
